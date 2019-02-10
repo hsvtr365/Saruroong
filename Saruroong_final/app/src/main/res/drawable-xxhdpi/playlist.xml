@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Playlist_move" android:oneshot="true" >
+
+    <item android:drawable="@drawable/cate_recode"
+        android:duration="70" />
+    <item android:drawable="@drawable/playlist_1"
+        android:duration="80" />
+    <item android:drawable="@drawable/playlist_2"
+        android:duration="80" />
+    <item android:drawable="@drawable/playlist_3"
+        android:duration="80" />
+    <item android:drawable="@drawable/playlist_4"
+        android:duration="80" />
+    <item android:drawable="@drawable/playlist_5"
+        android:duration="100" />
+    <item android:drawable="@drawable/playlist_6"
+        android:duration="100" />
+    <item android:drawable="@drawable/playlist_5"
+        android:duration="100" />
+    <item android:drawable="@drawable/playlist_6"
+        android:duration="100" />
+    <item android:drawable="@drawable/cate_recode"
+        android:duration="70" />
+</animation-list>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="back_pref"
+        android:icon="@drawable/icon_arrow_back" />
+
+    <PreferenceCategory android:title="내 정보 보호하기">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="lock_pref"
+            android:title="잠금 모드" />
+
+        <Preference
+            android:key="diary_backup_pref"
+            android:title="희비일기 저장하기" />
+
+        <Preference
+            android:key="logout_pref"
+            android:title="로그아웃" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="사루룽과 함께하기">
+
+        <Preference
+            android:key="notice_pref"
+            android:title="공지사항" />
+
+        <Preference
+            android:key="member_help_pref"
+            android:title="문의 및 건의" />
+
+   </PreferenceCategory>
+
+    <PreferenceCategory android:title="About 사루룽">
+
+        <Preference
+            android:key="app_info_pref"
+            android:title="어플리케이션 정보" />
+
+        <Preference
+            android:key="rule_pref"
+            android:title="약관 및 라이센스" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Stop 사루룽">
+
+        <Preference
+            android:key="app_exit_pref"
+            android:title="사루룽 탈퇴하기" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

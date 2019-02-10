@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9c874836"
+    tools:context="com.example.siji.SetPrivacy">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="480dp"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/colorBack"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/scenarioo"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="사루룽 개인정보 사용 방침"
+            android:textColor="@color/colorFont_main"
+            android:textSize="25dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/set_privacy_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/scenarioo"
+                android:textColor="@color/colorFont_main"
+                android:text="사루룽(이하 '회사'라 칭함)은 통신비밀보호법, 전기통신사업법,정보통신망 이용촉진 및 정보보호 등에 관한 법률 등 정보통신서비스제공자가 준수하여야 할 관련 법령상의 개인정보보호 규정을 준수하여, 관련 법령에 의거한 개인정보취급방침을 정하여 이용자 권인 보호에 최선을 다하고 있습니다.
+
+1. 수집하는 개인정보의 항목 및 수집방법
+
+가. 수집하는 개인정보의 항목
+첫째, 회사는 회원가입, 원활한 고객상담, 강종 서비스의 제공을 위해 최초 회원가입 당시 아래와 같은 개인정보를 수집하고 있습니다.
+- 성별, 이메일 주소, 나이, 결혼유무, 기기고유번호(디바이스 아이디 또는 IMEI)
+
+둘째, 서비스 이용과정에서 아래와 같은 정보들이 생성되어 수집될 수 있습니다.
+- 이용자 상태정보, 이용자 이름, 아이디, 사진, 쿠키, 분석의 대상이 되는 메시지, 방문일시, 서비스 이용 기록, 불량 이용 기록
+
+셋째, 유료 서비스 이용 과정에서 결제 등을 위하여 불가피하게 필요한 경우 신용카드 정보, 통신사 정보, 상품권 번호,기타 결제 관련 정보가 수집될 수 있습니다.
+
+나. 개인정보 수집방법
+회사는 다음과 같은 방법으로 개인정보를 수집합니다.
+- 이름, 이메일 등의 개인정보를 회원의 동의하에 수집.
+- 서비스 사용 중  이용자의 자발적 제공을 통한 수집.
+
+2. 개인정보의 수집 및 이용목적
+
+가. 연애의 과학의 기본 기능 제공
+연애의 과학은 이용자가 동의한 정보를 활용하여 이용자가 주고 받은 텍스트파일을 통한 분석 서비스를 제공합니다.
+또한 연애의 과학은 이용자의 가입시에 계정정보를 수집하고 저장하여 이용자의 개인식별을 위한 계정으로 사용하게 됩니다.
+이용자 상태정보, 이용자 이름, 아이디, 사진은 이용자에게 더 나은 정보를 제공하기 위해 사용합니다.
+
+나. 서비스 제공에 관한 계약 이행 및 서비스 제공에 따른 요금정산
+컨텐츠 제공, 특정 맞춤 서비스 제공, 물품배송 또는 청구서 등 발송, 본인인증, 구매 및 요금 결제, 요금추심
+
+다. 회원고나리
+회원제 서비스 이용에 따른 본인확인, 이용자 연령의 확인, 개인식별, 불량회원의 부정 이용방지와 비인가 사용방지, 가입의사 확인, 가입 및 가입횟수 제한, 만 14세 미만 아동 개인정보 수집 시 법정 대리인 동의여부 확인, 추후 법정 대리인 본인확인, 분쟁 조정을 위한 기록 보존, 불만 처리 등 민원처리, 고지사항 전달
+
+라. 신규 서비스 개발 및 마케팅.광고에의 활용
+신규 서비스 개발 및 맞춤 서비스 제공, 통계학적 특성에 따른 서비스 제공 및 광고 게재, 서비스 유효성 확인, 이벤트 및 광고성 정보 제공 및 광고 게재, 서비스의 유효성 확인, 이벤트 및 광고성 정보 제공 및 참여기회 제공, 접속빈도 파악, 회원의 서비스 이용에 대한 통계
+
+3. 개인정보의 공유 및 제공
+
+회사는 이용자들의 개인정보를 '개인정보의 수집목적 및 이용목적'에서 고지한 범위 내에서 사용하며, 이용자의 사전 동의 없이는 동 범위를 초과하여 이용하거나 원칙적으로 이용자의 개인정보를 외부에 공개하지 않습니다. 다만, 아래의 경우에는 주의를 기울여 개인정보를 이용 및 제공할 수 있습니다.
+
+가. 이용자들의 사전에 공개에 동의한 경우:
+정보수집 또는 정보제공 이전에 이용자에게 비즈니스 파트너가 누구인지, 그리고 언제까지 어떻게 보호/관리되는지 알려드리고 동의를 구하는 절차를 거치게 되며, 이용자가 동의하지 않는 경우에는 추가적인 정보를 수집하거나 비즈니스 파트너와 공유하지 않습니다.
+나. 법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우
+"
+                android:textSize="15dp" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/set_privacy_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/scenarioo"
+            android:gravity="end"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:text="확인"
+            android:textColor="@color/colorFont_main"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

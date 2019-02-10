@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:background="@color/colorBack"
+    android:id="@+id/container_diary_write">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/diaryWriteView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:paddingTop="5dp"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/scenarioo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line1"/>
+
+    <TextView
+        android:id="@+id/changeDateBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="| CHANGE DATE |"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/scenarioo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/diaryCdtSpinner"
+            android:layout_width="307dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:entries="@array/condition" />
+
+        <TextView
+            android:id="@+id/diaryCdtchangeBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="| SAVE |"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/scenarioo"/>
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/moodseekBar"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:max="20"
+        android:min="0"
+        android:progress="10" />
+
+    <TextView
+        android:id="@+id/moodTV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/scenarioo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line1"/>
+
+    <EditText
+        android:id="@+id/diaryET"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:ems="10"
+        android:hint="오늘 나는..."
+        android:inputType="textPersonName"
+        android:fontFamily="@font/scenarioo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/writeDiaryBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="| WRITE |"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/scenarioo"/>
+
+
+</LinearLayout>

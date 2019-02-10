@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    tools:context="com.example.siji.PlaylistWrite">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/scenarioo"
+                android:gravity="center"
+                android:text="나도 추천하기"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/line2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/line1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:weightSum="6">
+
+                <ImageView
+                    android:id="@+id/playlist_write_tab1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/playlist_tab1" />
+
+                <ImageView
+                    android:id="@+id/playlist_write_tab2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/playlist_tab2" />
+
+                <ImageView
+                    android:id="@+id/playlist_write_tab3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/playlist_tab3" />
+
+                <ImageView
+                    android:id="@+id/playlist_write_tab4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/playlist_tab4" />
+
+                <ImageView
+                    android:id="@+id/playlist_write_tab5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/playlist_tab5" />
+
+                <ImageView
+                    android:id="@+id/playlist_write_tab6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@mipmap/playlist_tab6" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/line2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/line1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:weightSum="5">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/scenarioo"
+                        android:gravity="center_vertical"
+                        android:text="가수"
+                        android:textSize="25dp" />
+
+                    <EditText
+                        android:id="@+id/playlist_write_singer"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:fontFamily="@font/scenarioo"
+                        android:gravity="start"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/scenarioo"
+                        android:gravity="center_vertical"
+                        android:text="제목"
+                        android:textSize="25dp" />
+
+                    <EditText
+                        android:id="@+id/playlist_write_song"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:fontFamily="@font/scenarioo"
+                        android:gravity="start"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/scenarioo"
+                android:gravity="center_vertical"
+                android:text="가사"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/playlist_write_lyrics"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:fontFamily="@font/scenarioo"
+                android:gravity="start"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/scenarioo"
+                android:gravity="center_vertical"
+                android:text="추천하는 이유"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/playlist_write_reason"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="@font/scenarioo"
+                android:hint="왜 추천하시나요?"
+                android:gravity="start"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/scenarioo"
+                android:gravity="center_vertical"
+                android:text="YouTube URL"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/playlist_write_url"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:fontFamily="@font/scenarioo"
+                android:hint="http://"
+                android:gravity="start"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/playlist_write_done"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="| DONE |"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

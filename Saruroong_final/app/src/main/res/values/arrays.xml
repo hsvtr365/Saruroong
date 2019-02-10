@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="condition">
+        <item>쉬는 중</item>
+        <item>짝사랑</item>
+        <item>썸타는 중</item>
+        <item>행복한 연애 중</item>
+        <item>슬픈 연애 중</item>
+        <item>이별</item>
+        <item>당신의 연애상태는?</item>
+    </string-array>
+</resources>

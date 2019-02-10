@@ -1,0 +1,25 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/constraintLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/msgMainBarTV02"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary2"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/title_text_size" />
+
+    <ListView
+        android:id="@+id/msgMainLV02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/msgMainBarTV02" />
+</RelativeLayout>

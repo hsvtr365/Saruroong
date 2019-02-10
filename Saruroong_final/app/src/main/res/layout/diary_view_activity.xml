@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:background="@color/colorBack"
+    android:id="@+id/container_diary_view">
+
+    <TextView
+        android:id="@+id/viewMoodTV_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:textSize="40dp"
+        android:fontFamily="@font/scenarioo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line2"/>
+
+    <SeekBar
+        android:id="@+id/diaryViewseekBar"
+        android:max="20"
+        android:min="0"
+        android:progress="10"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line2"/>
+
+    <TextView
+        android:id="@+id/viewMoodTV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:fontFamily="@font/scenarioo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line1"/>
+
+    <EditText
+        android:id="@+id/diaryView"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/scenarioo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/diaryModify"
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:text="| EDIT |"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/scenarioo"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/diaryDelete"
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:text="| DELETE |"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/scenarioo"/>
+    </LinearLayout>
+
+</LinearLayout>

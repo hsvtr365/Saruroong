@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:background="@color/colorBack">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/cookieIB02"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="136dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fortune_motion_1_1" />
+
+        <TextView
+            android:id="@+id/cookieTV02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cookieIB02"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:drawablePadding="22dp"
+            android:text="사룽 사룽 사루룽~"
+            android:fontFamily="@font/scenarioo"
+            android:textColor="@color/colorFont_main"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/cookieTV03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="52dp"
+            android:text="| DONE |"
+            android:fontFamily="@font/scenarioo"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

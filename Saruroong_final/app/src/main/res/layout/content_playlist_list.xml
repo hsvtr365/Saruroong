@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_playlist_con"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/playlist_back"
+    android:orientation="horizontal"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    android:weightSum="5"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/playlist_singer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/scenarioo"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorFont_sub"
+            android:textStyle="bold"
+            android:text="가수가수" />
+
+        <TextView
+            android:id="@+id/playlist_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/scenarioo"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorFont_sub"
+            android:textStyle="bold"
+            android:text="제목제목" />
+
+        <TextView
+            android:id="@+id/playlist_keyword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/scenarioo"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorFont_sub"
+            android:textStyle="bold"
+            android:text="# 왜케어렵냐" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/playlist_number"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:textColor="@android:color/transparent"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/recomend" />
+
+    <TextView
+        android:id="@+id/playlist_recommend"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/scenarioo"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:textColor="@color/colorFont_sub"
+        android:textStyle="bold"
+        android:text="150" />
+
+
+</LinearLayout>

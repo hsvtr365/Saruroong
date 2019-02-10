@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cookie_cate_move" android:oneshot="true" >
+
+    <item android:drawable="@drawable/fortune_1"
+        android:duration="50" />
+    <item android:drawable="@drawable/fortune_2"
+        android:duration="100" />
+    <item android:drawable="@drawable/fortune_3"
+        android:duration="100" />
+    <item android:drawable="@drawable/fortune_4"
+        android:duration="100" />
+    <item android:drawable="@drawable/fortune_5"
+        android:duration="100" />
+    <item android:drawable="@drawable/fortune_6"
+        android:duration="150" />
+    <item android:drawable="@drawable/fortune_7"
+        android:duration="150" />
+    <item android:drawable="@drawable/fortune_8"
+        android:duration="150" />
+    <item android:drawable="@drawable/fortune_9"
+        android:duration="150" />
+</animation-list>
